@@ -1,5 +1,6 @@
 import FaqParagraph from "../elements/faqParagraph"
 import '../css/font.css'
+import '../css/main-page.css'
 
 function RightSide() {
     return(
