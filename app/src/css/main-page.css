@@ -43,7 +43,13 @@
     left: -17%;
     transform: translateY(-20%);
     user-select: none;
-}   
+}
+.right-side-content{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+
+} 
 .left-side-box-img img{
     width: 170px;
     user-select: none;
@@ -160,6 +166,7 @@
     .right-side-content{
         align-items: center;
         height: 100%;
+        gap: 0px;
     }
     .right-side-faq-content{
         align-items: center;
